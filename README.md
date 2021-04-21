@@ -5,4 +5,4 @@ Create using Vanilla HTML and CSS.
 
 No backend implementation
 
-[For a live view head to]()
+For a live view head to [Live Page]( https://edy-gavrila.github.io/Customer-Survey-Form/)

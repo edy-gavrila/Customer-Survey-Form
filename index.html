@@ -7,8 +7,7 @@
     <title>Customer Survey Form</title>
   </head>
   <body>
-
-    <div class ="container">
+    <div class="container">
       <div>
         <h1 class="title">Customer Survey Form</h1>
         <p class="subtitle">
@@ -149,16 +148,21 @@
           ><br />
           <textarea
             id="sugestions"
+            class="sugestions"
             rows="6"
             cols="50"
             name="sugestions"
             form="survey-form"
-          ></textarea
-          ><br /><br />
-
-          <button id="submit" type="Submit">Submit</button>
+          ></textarea>
+          <button id="submit" class="submit-btn" type="Submit">Submit</button>
         </form>
       </div>
     </div>
+    <div class="footer">Copyright &copy; 2021 Eduard Gavrila</div>
+    <script>
+      document.getElementById("submit").addEventListener("click", (e) => {
+        e.preventDefault();
+      });
+    </script>
   </body>
 </html>

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "sans-serif";
+}
+
+body{
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.7),
+      rgba(136, 136, 206, 0.7)
+      ), url("./assets/img/survey-form-background.jpeg");
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center;
+  top:0;
+  left:0;
+  margin: 0;
+}
+  .container{
+  padding-top: 1.5rem;
+  text-align: center;
+
+}
+
+.title{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.subtitle{
+  color:white;
+  font-size:1.2rem;
+}
+
+.form-container{
+  background-color:rgba(21, 21, 53, 0.742);
+  padding:50px;
+  margin: 0 20%;
+  border-radius:5px;
+  text-align:left;
+}
+
+.labels{
+  color:white;
+  text-align: left;
+}
+
+.inputs{
+  border-radius: 5px;
+  height: 40px;
+  width:100%;
+  margin-bottom: 30px;
+}
+
+#sugestions{
+  width: 100%;
+  border-radius:5px;
+  margin-bottom: 30px;
+}
+
+#submit{
+  width: 100%;
+  background-color: mediumseagreen;
+  height:50px;
+  border-width: 0px;
+  font-size: 20px;
+  color:white;
+  border-radius: 2px;
+}

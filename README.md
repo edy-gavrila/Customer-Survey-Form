@@ -1,7 +1,7 @@
 # Customer-Survey-Form
 ## A simple interface demonstrating for a customer survey form.
 
-###Create using Vanilla HTML and CSS.
+Create using Vanilla HTML and CSS.
 
 No backend implementation
 
